@@ -1,4 +1,12 @@
-// First Code Challenge
-const myName = "kay-arky"
-const randIndex = Math.floor(Math.random() * myName.length)
-console.log("Random letter: " + myName.charAt(randIndex))
+// Conditionals: If Statements
+
+// Decision tree!
+if (playerOne === computer) {
+  //tie game
+} else if (playerOne === "rock") {
+  if (computer === "paper") {
+    //Computer wins
+  } else {
+    // playerOne wins
+  }
+}
